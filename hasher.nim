@@ -57,7 +57,7 @@ when isMainModule:
 
     of cmdLongOption, cmdShortOption:
       case p.key
-      of "d":
+      of "d", "directory":
         isDir = true
       of "h", "help":
         echo "Usage: hasher [options] <path>"
