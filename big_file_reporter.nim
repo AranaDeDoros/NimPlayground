@@ -3,7 +3,7 @@ import std/[osproc, strformat, monotimes, times]
 
 const THRESHOLD_SIZE = 1024 * 1024 * 1024 # 1024 MB
 const LEVELS_TO_CHECK = 5
-let REPORT_FILE = "big_files.txt"
+const REPORT_FILE = "big_files.txt"
 
 type StorageError = object
     msg: string
@@ -73,7 +73,7 @@ proc walkDirMaxDepth(dir: string = "./", maxDepth: int = LEVELS_TO_CHECK, curren
 when isMainModule:
   let startTime = getMonoTime()
 
-  let startDir = "C:\\Users\\dontb"
+  const startDir = "C:\\Users\\dontb"
   writeFile(REPORT_FILE, "")
   discard walkDirMaxDepth(startDir, LEVELS_TO_CHECK)
 
