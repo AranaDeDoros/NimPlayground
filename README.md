@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 # Nim Playground
 
 Small nim programs dropped to test some language features.
-=======
-# Nim First Steps
-
-Just for run.
-
-Small programs written in Nim for my learning experience.
->>>>>>> 9172846194e034a336bd3eb2b8df76340c42864a
 
 ## Scripts
 
