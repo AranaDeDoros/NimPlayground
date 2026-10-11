@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 # Nim Playground
 
 Small nim programs dropped to test some language features.
+=======
+# Nim First Steps
+
+Just for run.
+
+Small programs written in Nim for my learning experience.
+>>>>>>> 9172846194e034a336bd3eb2b8df76340c42864a
 
 ## Scripts
 
@@ -55,7 +63,6 @@ Checks whether a file of some extension (images in this case) is currently copie
 **Usage**
 
 ```bash
-nim c -r clipboardTest.nim <port> [port...]
 nim c -r clipboardTest.nim
 ```
 
@@ -95,6 +102,18 @@ Finds paths with big files and displays them by levels.
 
 ```bash
 nim c -r task_mgr
+```
+
+---
+
+#### 8. dockerDSLTest
+
+DSL experiment.
+
+**Usage**
+
+```bash
+nim c -r dockerDSLTest
 ```
 
 ---
