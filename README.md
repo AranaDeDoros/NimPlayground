@@ -112,7 +112,7 @@ nim c -r dockerDSLTest
 
 ### Nimgui
 
-Applications with a visual interface.
+Applications with a visual interface. Compile with --app:gui so you don't open a black terminal on launch.
 
 1. **Port Checker:** A simple port checker.
    ![Port Checker](/nimgui/gui/port_checker/port.PNG)
@@ -120,4 +120,6 @@ Applications with a visual interface.
 2. **License Generator:** Generates a key and save them to a text file.
    ![NimKey Genie](/nimgui/gui/lickeygen/keygen.png)
 
+3. **Drive Temperature:** Windows taskbar widget that displays the drives temperature. This one was brought to you by Claude. Check readme for details.
+   ![Drive Temp Widget](/nimgui/gui/lickeygen/drivetemp.png)
 
